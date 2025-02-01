@@ -1,0 +1,246 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hello",
+          "Hey",
+          "How are you?",
+          "What's up?"
+        ],
+        "responses": [
+          "Hello! How can I assist you with Speaksi today?",
+          "Hi there! What can I help you with?",
+          "Hey! Let me know how I can help."
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye",
+          "Take care"
+        ],
+        "responses": [
+          "Goodbye! Have a great day!",
+          "See you later! Keep practicing with Speaksi!",
+          "Take care! Don't hesitate to reach out if you need help."
+        ]
+      },
+      {
+        "tag": "speech_recognition_issue",
+        "patterns": [
+          "My speech isn't being recognized",
+          "The app isn't understanding me",
+          "Speech recognition isn't working",
+          "Why can't the app hear me?"
+        ],
+        "responses": [
+          "Please check your microphone permissions in your device settings and ensure you're in a quiet environment.",
+          "Make sure your microphone is enabled and the app has access. Try speaking clearly and slowly.",
+          "If the issue persists, restart the app or contact support for further assistance."
+        ]
+      },
+      {
+        "tag": "magic_spell_issue",
+        "patterns": [
+          "Magic Spell isn't loading",
+          "Daily therapy isn't working",
+          "Why isn't Magic Spell starting?",
+          "Magic Spell feature is stuck"
+        ],
+        "responses": [
+          "Please check your internet connection and ensure your app is updated to the latest version.",
+          "Restart the app and try again. If the issue persists, contact support for help.",
+          "Magic Spell requires a stable connection. Verify your network and try again."
+        ]
+      },
+      {
+        "tag": "pronunciation_tips_issue",
+        "patterns": [
+          "The pronunciation tips aren't helpful",
+          "I'm not improving with the tips",
+          "Why are the tips not working?",
+          "Pronunciation feedback is inaccurate"
+        ],
+        "responses": [
+          "We can recalibrate your voice profile for better tips. Contact support for assistance.",
+          "Try practicing the suggested tips multiple times. If you're still struggling, let us know!",
+          "Your feedback is important. We'll help you get more accurate suggestions."
+        ]
+      },
+      {
+        "tag": "download_speaksi",
+        "patterns": [
+          "How do I download Speaksi?",
+          "Where can I get the app?",
+          "Is Speaksi available on Android?",
+          "Can I download Speaksi on iOS?"
+        ],
+        "responses": [
+          "You can download Speaksi from the Google Play Store for Android or the Apple App Store for iOS.",
+          "Speaksi is available on both Android and iOS. Just search for 'Speaksi' in your app store!",
+          "Download Speaksi for free from the Google Play Store or Apple App Store."
+        ]
+      },
+      {
+        "tag": "speaksi_free",
+        "patterns": [
+          "Is Speaksi free?",
+          "Do I have to pay for Speaksi?",
+          "Is there a free version?",
+          "How much does Speaksi cost?"
+        ],
+        "responses": [
+          "Yes, Speaksi has a free version with basic features. Premium features are available through a subscription.",
+          "The basic version of Speaksi is free. You can upgrade to premium for advanced analytics and personalized therapy plans.",
+          "Speaksi is free to download and use, with optional premium features for enhanced support."
+        ]
+      },
+      {
+        "tag": "language_support",
+        "patterns": [
+          "What languages does Speaksi support?",
+          "Does Speaksi work in Spanish?",
+          "Can I use Speaksi for French?",
+          "Is English the only language?"
+        ],
+        "responses": [
+          "Currently, Speaksi supports English. Support for other languages is under development.",
+          "Speaksi is designed for English speakers. Stay tuned for updates on additional languages!",
+          "For now, Speaksi only supports English, but we're working on adding more languages soon."
+        ]
+      },
+      {
+        "tag": "voice_training",
+        "patterns": [
+          "Can I train Speaksi for my voice?",
+          "How do I improve speech recognition?",
+          "Does Speaksi adapt to my voice?",
+          "Can the app learn my speech patterns?"
+        ],
+        "responses": [
+          "Yes! During onboarding, Speaksi guides you through a voice training session for better accuracy.",
+          "Speaksi can adapt to your voice. Complete the voice training session for personalized recognition.",
+          "The app learns your speech patterns through training. Start with the onboarding process to improve accuracy."
+        ]
+      },
+      {
+        "tag": "magic_spell_how",
+        "patterns": [
+          "How does Magic Spell work?",
+          "What is Magic Spell?",
+          "Explain Magic Spell",
+          "How do I use Magic Spell?"
+        ],
+        "responses": [
+          "Magic Spell provides daily speech therapy. You'll get a word or phrase to pronounce, and the app will give feedback on your accuracy.",
+          "Each day, Magic Spell assigns a new word. Pronounce it, and the app will compare it to the correct version and provide tips.",
+          "Magic Spell is a gamified way to improve pronunciation. Practice daily and track your progress!"
+        ]
+      },
+      {
+        "tag": "statistics_how",
+        "patterns": [
+          "How does performance tracking work?",
+          "What are the statistics for?",
+          "Can I see my progress?",
+          "How do I check my improvement?"
+        ],
+        "responses": [
+          "Speaksi tracks your clarity, accuracy, and progress over time. You can view detailed reports and charts in the app.",
+          "The app generates weekly and monthly reports to show your improvement. Check the 'Statistics' section for details.",
+          "Your progress is visualized in charts and reports. Track your improvement and focus on areas that need work."
+        ]
+      },
+      {
+        "tag": "pronunciation_tips_how",
+        "patterns": [
+          "How does pronunciation feedback work?",
+          "What are AI tips?",
+          "How do I get better pronunciation tips?",
+          "Can I improve my pronunciation?"
+        ],
+        "responses": [
+          "Speaksi identifies problem areas in your pronunciation and provides tailored tips like tongue placement and voice modulation.",
+          "The app uses AI to analyze your speech and give personalized suggestions for improvement.",
+          "Practice the tips provided, and your pronunciation will improve over time. Consistency is key!"
+        ]
+      },
+      {
+        "tag": "contact_support",
+        "patterns": [
+          "How do I contact support?",
+          "Can I talk to someone?",
+          "I need help from support",
+          "What's the support email?"
+        ],
+        "responses": [
+          "You can contact support via email at support@speaksi.com or use the in-app chat for immediate assistance.",
+          "Reach out to us at support@speaksi.com or use the 'Help' icon in the app to chat with an agent.",
+          "For support, email us at support@speaksi.com or use the in-app helpdesk."
+        ]
+      },
+      {
+        "tag": "data_privacy",
+        "patterns": [
+          "How is my data protected?",
+          "Is Speaksi secure?",
+          "What about my privacy?",
+          "Does Speaksi store my voice data?"
+        ],
+        "responses": [
+          "Speaksi uses end-to-end encryption and complies with global data protection standards to keep your data safe.",
+          "Your privacy is our priority. We use advanced security measures to protect your voice data.",
+          "Speaksi ensures your data is secure and only used to improve your experience. We do not share your data with third parties."
+        ]
+      },
+      {
+        "tag": "children_use",
+        "patterns": [
+          "Can children use Speaksi?",
+          "Is Speaksi kid-friendly?",
+          "Is the app safe for kids?",
+          "Can my child use this app?"
+        ],
+        "responses": [
+          "Yes, Speaksi is designed for all age groups and includes child-friendly content.",
+          "Children can use Speaksi safely. The app is designed to be engaging and supportive for young users.",
+          "Speaksi is perfect for kids! It helps them improve their speech in a fun and interactive way."
+        ]
+      },
+      {
+        "tag": "pronunciation",
+        "patterns": [
+            "how to pronounce",
+            "pronunciation of",
+            "correct pronunciation",
+            "say this word",
+            "speak this word"
+        ],
+        "responses": ["pronunciation"]
+    },
+    {
+      "tag": "check_similarity",
+      "patterns": [
+        "Check my pronunciation",
+        "How do I pronounce this word?",
+        "Can you verify my pronunciation?",
+        "Tell me if I'm pronouncing this correctly",
+        "Pronunciation checker",
+        "Check similarity score",
+        "Find how similar my pronunciation is",
+        "Evaluate my pronunciation",
+        "Am I saying this word correctly?",
+        "Rate my pronunciation"
+      ],
+      "responses": [
+        "enter the word you want to check"
+      ],
+      "function": "check_magic_spell"
+    }
+      
+    ]
+  }
